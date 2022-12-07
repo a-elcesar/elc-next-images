@@ -1,13 +1,14 @@
 {
-  "name": "next-images",
-  "version": "1.8.3",
+  "name": "elc-next-images",
+  "version": "1.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "license": "MIT",
+  "homepage": "https://github.com/a-elcesar/elc-next-images.git",
   "repository": "arefaslani/next-images",
   "dependencies": {
-    "file-loader": "^6.2.0",
-    "url-loader": "^4.1.0"
+    "elc-file-loader": "^1.0.0",
+    "elc-url-loader": "^1.0.0"
   },
   "peerDependencies": {
     "webpack": "^4.0.0 || ^5.0.0"

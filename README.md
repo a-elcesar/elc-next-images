@@ -17,13 +17,13 @@ If you also want image minimalization and optimization have a look at [next-opti
 ## Installation
 
 ```
-npm install --save next-images
+npm install --save elc-next-images
 ```
 
 or
 
 ```
-yarn add next-images
+yarn add elc-next-images
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ Create a `next.config.js` in your project
 
 ```js
 // next.config.js
-const withImages = require('next-images')
+const withImages = require('elc-next-images')
 module.exports = withImages()
 ```
 
@@ -40,7 +40,7 @@ Optionally you can add your custom Next.js configuration as parameter
 
 ```js
 // next.config.js
-const withImages = require('next-images')
+const withImages = require('elc-next-images')
 module.exports = withImages({
   webpack(config, options) {
     return config
