@@ -27,10 +27,10 @@ module.exports = ({ dynamicAssetPrefix = false, ...nextConfig } = {}) => {
         exclude: nextConfig.exclude,
         use: [
           {
-            loader: require.resolve("url-loader"),
+            loader: require.resolve("elc-url-loader"),
             options: {
               limit: nextConfig.inlineImageLimit,
-              fallback: require.resolve("file-loader"),
+              fallback: require.resolve("elc-file-loader"),
               outputPath: `${isServer ? "../" : ""}static/images/`,
               ...(dynamicAssetPrefix
                 ? {

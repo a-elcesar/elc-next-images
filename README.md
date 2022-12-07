@@ -154,7 +154,7 @@ module.exports = withImages({
 The default value is `"[name]-[hash].[ext]"`.  Documentation for available tokens like `[name]`, `[hash]`, etc can be found in [webpack/loader-utils](https://github.com/webpack/loader-utils#interpolatename)
 
 ### ES Modules
-> By default, file-loader generates JS modules that use the ES modules syntax. There are some cases in which using ES modules is beneficial, like in the case of module concatenation and tree shaking.
+> By default, elc-file-loader generates JS modules that use the ES modules syntax. There are some cases in which using ES modules is beneficial, like in the case of module concatenation and tree shaking.
 
 ES Modules are disabled by default. You can enable them by using `esModule` config option:
 
